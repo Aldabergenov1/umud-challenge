@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "UMUD challenge: muscle architecture from ultrasound"
+type: software
+license: GPL-3.0-only
+repository-code: "https://github.com/Aldabergenov1/umud-challenge"
+authors:
+  - family-names: Aldabergenov
+    given-names: Makhambet
+    affiliation: "Kazakh-British Technical University"
+  - family-names: Zhalgasbayev
+    given-names: Arman
+    affiliation: "Narxoz University"

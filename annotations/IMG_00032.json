@@ -1,0 +1,56 @@
+{
+  "image_id": "IMG_00032",
+  "pa_deg": 17.995,
+  "fl_mm": 39.428,
+  "mt_mm": 27.815,
+  "mm_per_pixel": 0.065907,
+  "depth_cm": 4,
+  "points": {
+    "upper_aponeurosis": [
+      {
+        "x_px": 167.2,
+        "y_px": 137.36
+      },
+      {
+        "x_px": 1033.78,
+        "y_px": 138.34
+      }
+    ],
+    "lower_aponeurosis": [
+      {
+        "x_px": 165.24,
+        "y_px": 562.33
+      },
+      {
+        "x_px": 1035.74,
+        "y_px": 557.44
+      }
+    ],
+    "fascicle": [
+      {
+        "x_px": 443.33,
+        "y_px": 531.98
+      },
+      {
+        "x_px": 1011.26,
+        "y_px": 343.97
+      }
+    ],
+    "scan_box": [
+      {
+        "x_px": 1036.52,
+        "y_px": 89.3
+      },
+      {
+        "x_px": 1035.8,
+        "y_px": 696.21
+      }
+    ]
+  },
+  "annotation_complete": true,
+  "scan_box_height_px": 606.91,
+  "scan_top_x": 1036.52,
+  "scan_top_y": 89.3,
+  "scan_bottom_x": 1035.8,
+  "scan_bottom_y": 696.21
+}

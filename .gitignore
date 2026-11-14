@@ -1,0 +1,33 @@
+# Environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Competition data and external datasets: download them, see README
+data/
+external/
+notebooks_public/
+
+# Weights, caches, submissions, run logs
+work/
+*.pt
+*.npz
+*.pkl
+
+# Anything that can show competition frames stays local
+eda/*.jpg
+eda/*.png
+
+# Tables generated from the labels by scripts/manual_labels.py
+labels/manual_*.csv
+
+# Credentials
+kaggle.json
+access_token*
+
+# LaTeX by-products
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out

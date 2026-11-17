@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite the paper below."
 title: "UMUD challenge: muscle architecture from ultrasound"
 type: software
 license: GPL-3.0-only
@@ -11,3 +11,18 @@ authors:
   - family-names: Zhalgasbayev
     given-names: Arman
     affiliation: "Narxoz University"
+preferred-citation:
+  type: article
+  title: "Where the error comes from in automated muscle architecture measurement: a case study on the UMUD Kaggle challenge"
+  authors:
+    - family-names: Aldabergenov
+      given-names: Makhambet
+      affiliation: "Kazakh-British Technical University"
+    - family-names: Zhalgasbayev
+      given-names: Arman
+      affiliation: "Narxoz University"
+  doi: "10.5281/zenodo.24321877"
+  publisher:
+    name: Zenodo
+  year: 2026
+  notes: "Preprint"

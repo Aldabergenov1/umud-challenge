@@ -5,6 +5,11 @@ Code for the Kaggle competition
 Given a B-mode ultrasound image of a skeletal muscle, it estimates pennation angle (PA, degrees),
 fascicle length (FL, mm) and muscle thickness (MT, mm).
 
+Paper: M. Aldabergenov, A. Zhalgasbayev. *Where the error comes from in automated muscle architecture
+measurement: a case study on the UMUD Kaggle challenge*. Preprint, Zenodo, 2026.
+[doi:10.5281/zenodo.24321877](https://doi.org/10.5281/zenodo.24321877). The source and a copy of the PDF are
+in `paper/`.
+
 ## Approach
 
 The training set has segmentation masks and no PA/FL/MT values, so the numbers are not regressed straight

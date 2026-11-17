@@ -105,6 +105,16 @@ fascicles the network does not see, which is where the remaining error is.
 
 ## Results
 
+Final standing, team Mixture of Experts, final submission v9 (all three fascicle nets):
+
+| Leaderboard | Score | Rank |
+|---|---|---|
+| Public, at the close on 14 November 2026 | 0.383 | 281 of 690 |
+| Private | not released yet | |
+
+The private leaderboard is released after the organisers verify the results; this table will be updated then.
+The paper in `paper/` was written before that and does not contain the private score.
+
 | Version | Local, manual labels | Public LB |
 |---|---|---|
 | v1: one fold, PA from a structure tensor on the fascicle map | | 0.563 |
@@ -116,7 +126,7 @@ fascicles the network does not see, which is where the remaining error is.
 | v7: v5 + aponeurosis net fine-tuned on the manual test lines, rotation TTA | 0.309 | 0.395 |
 | v9a: v5 with the unsqueezed ConvNeXt fascicle net instead of the square one | 0.314 | 0.391 |
 | v9, mix of square and unsqueezed ConvNeXt fascicle nets | 0.321 | 0.394 |
-| v9, mix of all three fascicle nets (current) | 0.320 | 0.383 |
+| v9, mix of all three fascicle nets (final) | 0.320 | 0.383 |
 
 Score is `(MAE_PA / 6 + MAE_FL / 12 + MAE_MT / 3) / 3`, lower is better. The local column compares with
 the manual labels shifted to the hosts' convention, over all 309 frames; the public leaderboard uses a
